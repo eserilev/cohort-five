@@ -226,7 +226,7 @@ By Age Manning
 
 Run some network simulations using shadow: https://shadow.github.io/
 
-We have some simulations here: https://github.com/sigp/gossipsub-testground. It would be nice to try and get these to run on shadow rather than test ground. We could then start doing some more advanced network simulations to experiment with new features and upgrades.
+Lighthouse has some network simulations here: https://github.com/sigp/gossipsub-testground. It would be nice to try and get these to run on shadow rather than test ground. We could then start doing some more advanced network simulations to experiment with new features and upgrades.
 
 It looks like some work has been done which integrates lighthouse into shadow so perhaps we could leverage some of this: https://github.com/ppopth/ethereum-shadow
 
@@ -234,9 +234,9 @@ It looks like some work has been done which integrates lighthouse into shadow so
 
 By Jimmy Chen
 
-A non exhaustive list of some potential project ideas
+A non exhaustive list of some potential project ideas:
 
-- Direct integration (non-http) of Lighthoue-Reth
+- Direct integration (non-http) of Lighthouse-Reth
 - Make some common Lighthouse crates (types, eth2-type) easier to import and potentially support more targets (e.g. wasm)
 - Improve Lighthouse logging (e.g. look into integrating tracing)
 - Test improvements:
@@ -245,5 +245,5 @@ A non exhaustive list of some potential project ideas
   - Improve test coverage in the validator-client crate
   - Add deadlock detector to CI (check https://github.com/BurtonQin/lockbud)
 - Enhancements to beacon watch
-- Investigate ways to reduce boilerplates when aadding hard fork (related to superstruct features)
-- Productionize Lighthouse light client server
+- Investigate ways to reduce boilerplate when adding hard fork (related to superstruct features)
+- Production-ize Lighthouse light client server
