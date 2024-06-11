@@ -218,3 +218,32 @@ Implement Besu's Bonsai mode data storage to work with archive nodes.
 By Besu Team
 
 Introduce SSZ as a supported encoding format by implementing [EIP-6493](https://eips.ethereum.org/EIPS/eip-6493)
+
+
+### Lighthouse: Run network simulations using the shadow framework
+
+By Age Manning
+
+Run some network simulations using shadow: https://shadow.github.io/
+
+We have some simulations here: https://github.com/sigp/gossipsub-testground. It would be nice to try and get these to run on shadow rather than test ground. We could then start doing some more advanced network simulations to experiment with new features and upgrades.
+
+It looks like some work has been done which integrates lighthouse into shadow so perhaps we could leverage some of this: https://github.com/ppopth/ethereum-shadow
+
+### Lighthouse
+
+By Jimmy Chen
+
+A non exhaustive list of some potential project ideas
+
+- Direct integration (non-http) of Lighthoue-Reth
+- Make some common Lighthouse crates (types, eth2-type) easier to import and potentially support more targets (e.g. wasm)
+- Improve Lighthouse logging (e.g. look into integrating tracing)
+- Test improvements:
+  - Improving CI times by identifying and refactoring slow tests
+  - Eliminate flaky tests
+  - Improve test coverage in the validator-client crate
+  - Add deadlock detector to CI (check https://github.com/BurtonQin/lockbud)
+- Enhancements to beacon watch
+- Investigate ways to reduce boilerplates when aadding hard fork (related to superstruct features)
+- Productionize Lighthouse light client server
