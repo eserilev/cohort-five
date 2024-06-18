@@ -232,8 +232,6 @@ It looks like some work has been done which integrates lighthouse into shadow so
 
 ### Lighthouse
 
-By Jimmy Chen & Lighthouse team
-
 A non exhaustive list of some potential project ideas:
 
 - Make some common Lighthouse crates (types, eth2-type) easier to import.
