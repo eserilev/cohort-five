@@ -232,18 +232,21 @@ It looks like some work has been done which integrates lighthouse into shadow so
 
 ### Lighthouse
 
-By Jimmy Chen
+By Jimmy Chen & Lighthouse team
 
 A non exhaustive list of some potential project ideas:
 
-- Direct integration (non-http) of Lighthouse-Reth
-- Make some common Lighthouse crates (types, eth2-type) easier to import and potentially support more targets (e.g. wasm)
+- Make some common Lighthouse crates (types, eth2-type) easier to import.
 - Improve Lighthouse logging (e.g. look into integrating tracing)
 - Test improvements:
   - Improving CI times by identifying and refactoring slow tests
   - Eliminate flaky tests
   - Improve test coverage in the validator-client crate
   - Add deadlock detector to CI (check https://github.com/BurtonQin/lockbud)
-- Enhancements to beacon watch
-- Investigate ways to reduce boilerplate when adding hard fork (related to superstruct features)
 - Production-ize Lighthouse light client server
+- Direct integration (non-http) of Lighthoue-Reth
+
+List of mentors
+- Age Manning
+- Michael Sproul
+- Jimmy Chen
